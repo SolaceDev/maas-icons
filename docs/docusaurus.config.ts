@@ -22,15 +22,15 @@ const config: Config = {
   title: "Maas Icons",
 
   // Set the production url of your site here
-  url: "https://verbose-adventure-7kpn54m.pages.github.io/",
+  url: "https://solacedev.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/maas-icons/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "SolaceDev", // Usually your GitHub org/user name.
-  projectName: "maas-ui", // Usually your repo name.
+  projectName: "maas-icons", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
