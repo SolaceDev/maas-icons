@@ -6,4 +6,4 @@ targets:
     path: .
 
 project:
-  name: "@solace-labs/maas-icons"
+  name: "@solacedev/maas-icons"
