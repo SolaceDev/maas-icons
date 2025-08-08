@@ -7,11 +7,13 @@ on:
 
 jobs:
   bump-version:
+    permissions:
+      contents: write
     name: "Bump Version on main"
     runs-on: ubuntu-latest
     steps:
       - name: "Checkout source code"
-        uses: "actions/checkout@v2"
+        uses: "actions/checkout@v4"
         with:
           ref: ${{ github.ref }}
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -26,6 +28,7 @@ jobs:
           major-wording: "solacemajor,SolaceMajor,SOLACEMAJOR"
           patch-wording: "solacepatch,SolacePatch,SOLACEPATCH"
           tag-prefix: ""
+          commit-message: "CI: bumps version to {{version}} [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: "cat package.json"
