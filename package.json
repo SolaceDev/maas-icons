@@ -44,9 +44,6 @@
     "prepublishOnly": "npm run optimize && npm run optimize:illustrations && npm run optimize:images && npm run generateicons  && npm run build && npm run copyAssets"
   },
   "devDependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/material": "^7.3.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^25.1.4",
@@ -68,8 +65,6 @@
     "microbundle": "^0.15.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.2.5",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
     "react-scripts": "^5.0.0",
     "rimraf": "^5.0.5",
     "svg-sprite": "^1.5.3",
